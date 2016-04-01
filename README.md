@@ -1,4 +1,4 @@
-# Gif_Gen
+# Random-GIF-Generator
 
 Today you will use jQuery's ajax function to create a random GIF (not like the peanut butter) generator!
 
