@@ -1,0 +1,22 @@
+{
+  "name": "angulargifgenerator",
+  "version": "1.0.0",
+  "description": "Today you will use jQuery's ajax function to create a random GIF (not like the peanut butter) generator!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeltmiller/Random-GIF-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeltmiller/Random-GIF-Generator/issues"
+  },
+  "homepage": "https://github.com/joeltmiller/Random-GIF-Generator#readme",
+  "dependencies": {
+    "angular": "^1.5.3"
+  }
+}

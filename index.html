@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>GIF Generator</title>
-    <link rel="stylesheet" src="style.css" />
-    <script src="jquery-2.2.2.min.js"></script>
-    <script src="app.js"></script>
-  </head>
-  <body>
-    <div class="gif">
+<html ng-app="gifApp">
+<head>
+  <meta charset="utf-8">
+  <title>GIF Generator</title>
+  <link rel="stylesheet" src="style.css" />
+  <!-- <script src="jquery-2.2.2.min.js"></script> -->
+  <script src="angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="CallController">
 
 
-    
-      </div>
-<button id="random">Random GIF</button>
-  </body>
+  <div class="gif" ng-show="buttonClicked">
+
+    <img ng-src="{{randomGif.image_url}}" />
+
+
+  </div>
+
+  <button ng-click="getGif()">Random GIF</button>
+</body>
 </html>
